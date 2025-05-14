@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(163, 163, 163);
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 1rem;
+    max-width: 800px;
+    margin: 1rem auto;
+    justify-items: center;
+}
+
+/* General reusable styles */
+section, header, aside, footer {
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    width: 20rem;
+}
+
+header {
+    background-color: purple;
+}
+
+.aside1 {
+    background-color: rgb(12, 12, 172);
+}
+
+.article {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    background-color: rgb(78, 187, 78);
+    padding: 1rem;
+    border-radius: 12px;
+    justify-items: center;
+    width: 20rem;
+}
+
+.article > section {
+    background-color: red;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 18rem;
+}
+
+.aside2 {
+    background-color: rgb(95, 193, 226);
+}
+
+footer {
+    background-color: rgb(215, 143, 7);
+}
